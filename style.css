@@ -58,6 +58,8 @@ li{
     font-weight: bold;
     background-color: #8ac926;
     border-radius: 0 0 6px 6px;
+    text-align: center;
+    justify-content: center;
 }
 
 .odkazy a{
@@ -65,6 +67,11 @@ li{
     text-decoration: none;
     padding: 12px 20px;
     display: inline-block;
+    justify-content: center;
+}
+
+.recept {
+    border-right: 1px solid white;
 }
 
 .odkazy a:hover{
