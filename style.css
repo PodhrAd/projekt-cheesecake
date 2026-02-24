@@ -48,9 +48,9 @@ ul{
     padding: 0;
 }
 
-li{
+.odkazy li{
     list-style: none;
-    display: inline;
+    display: inline-block;
 }
 
 .odkazy{
@@ -59,7 +59,8 @@ li{
     background-color: #8ac926;
     border-radius: 0 0 6px 6px;
     text-align: center;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .odkazy a{
