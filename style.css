@@ -1,5 +1,74 @@
 html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
+*, ::before, ::after { box-sizing: inherit; margin: 0;}
+
+body {
+    font-family: Baloo Bhaijaan 2;
+    background-color: #545e75;
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+}
+
+h1{
+   font-size: 24px; 
+   background-color: #8ac926;
+   padding: 16px 20px;
+   color: white;
+   margin: 0;
+   line-height: 1;
+}
+
+h2{
+    font-size: 18px;
+    margin-left: 20px;
+    color: #8ac926;
+}
+
+.box {
+    width: 350px;
+    padding: 6px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 12px;
+}
+
+.obrazek{
+    border-radius: 6px 6px 0 0;
+    width: 100%;
+    display: block;
+}
+
+.odstavec1{
+    margin: 20px;
+}
+
+.odstavec2{
+    margin: 8px 20px 20px 20px;
+}
+
+.odkazy{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #8ac926;
+    margin: 0;
+    padding: 0;
+    border-radius: 0 0 6px 6px;
+}
+
+.odkazy a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.recept{
+    border-right: 1px solid;
+}
+
+.odkazy a:hover{
+    background-color: #7cb422;
+}
+
+
 
 /*
 Barvy:
